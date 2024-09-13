@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Inventory Management System</title>
+</head>
+<body>
+    <header class="header">Inventory Management System</header>
+
+    <div class="main-container">
+        <!-- Table to display products -->
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price (PKR)</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <!-- Form to add products -->
+        <form id="productForm">
+            <input type="text" id="productName" placeholder="Product Name" required />
+            <input type="number" id="quantity" placeholder="Quantity" required />
+            <input type="number" id="price" placeholder="Price (PKR)" required />
+            <button type="submit">Add Product</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>
+            <a target="_blank" href="https://www.linkedin.com/in/ali-khan-8694162b7/">LinkedIn</a>
+            <b>Developed by Ali Khan</b>
+            <a target="_blank" href="https://github.com/AliKhan17dec">GitHub</a>
+        </p>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
